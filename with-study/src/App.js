@@ -1,8 +1,14 @@
 import React from "react";
+import TodoInsert from "./components/TodoInsert";
 import TodoTemplate from "./components/TodoTemplate";
-
+import TodoList from "./components/TodoList";
 const App = () => {
-  return <TodoTemplate>일일 목표 스터디를 편리하게 관리해요!</TodoTemplate>;
+  return (
+    <TodoTemplate>
+      <TodoInsert />
+      <TodoList />
+    </TodoTemplate>
+  );
 };
 
 export default App;
