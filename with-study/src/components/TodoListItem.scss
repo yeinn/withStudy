@@ -29,7 +29,7 @@
       text-decoration: line-through;
     }
   }
-
+}
   .remove {
     display: flex;
     align-items: center;
@@ -39,8 +39,8 @@
     &:hover {
       color: #ff8787;
     }
-  }
-  & + & {
-    border-top: 1px solid #dee2e6;
-  }
+  
+    & + & {
+      border-top: 1px solid #dee2e6;
+    }
 }
